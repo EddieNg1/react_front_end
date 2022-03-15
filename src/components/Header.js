@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 
-import {DropdownButton, Dropdown} from 'react-bootstrap'
+import {DropdownButton} from 'react-bootstrap'
 
 
 const Header = () => {
