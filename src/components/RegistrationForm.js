@@ -51,7 +51,7 @@ const RegistrationForm = () => {
                     <div className="form-group">
 
                         <input className="form-control" id="firstName" name="firstName" type="text" placeholder="First Name" 
-                        onChange={handleChange} required />
+                        onChange={handleChange}  />
 
                     </div>
                 </div>
@@ -61,7 +61,7 @@ const RegistrationForm = () => {
                     <div className="form-group">
 
                         <input className="form-control" id="lastName" name="lastName" type="text" placeholder="Last Name" 
-                        onChange={handleChange} required />
+                        onChange={handleChange}  />
 
                     </div>
                 </div>
@@ -70,7 +70,7 @@ const RegistrationForm = () => {
                 <div className="col-md-6">
                     <div className="form-group">
                         <input className="form-control" id="password" name="password" type="password" placeholder="Password" 
-                        onChange={handleChange} required />
+                        onChange={handleChange}  />
                     </div>
                 </div>
             </div>
@@ -79,7 +79,7 @@ const RegistrationForm = () => {
                 <div className="col-md-6">
                     <div className="form-group">
                         <input className="form-control" id="email" name="email" type="email" placeholder="Email Address" 
-                        onChange={handleChange} required />
+                        onChange={handleChange}  />
                     </div>
                 </div>
             </div>
