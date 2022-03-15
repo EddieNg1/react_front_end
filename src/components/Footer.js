@@ -10,10 +10,10 @@ const Footer = () => {
 
                     <ul className="list-unstyled">
                         <li>
-                            <a href="https://web322.ca/" className="text-decoration-none">WEB322</a>
+                            <a href="https://web322.ca/" target="_blank" className="text-decoration-none">WEB322</a>
                         </li>
                         <li>
-                            <a href="https://web422.ca/"  className="text-decoration-none">WEB422</a>
+                            <a href="https://web422.ca/" target="_blank" className="text-decoration-none">WEB422</a>
                         </li>
                     </ul>
 
@@ -23,10 +23,10 @@ const Footer = () => {
 
                     <ul className="list-unstyled">
                         <li>
-                            <a href="https://www.airbnb.ca/" className="text-decoration-none">airbnb</a>
+                            <a href="https://www.airbnb.ca/" target="_blank" className="text-decoration-none">airbnb</a>
                         </li>
                         <li>
-                            <a href="https://www.expedia.ca/"  className="text-decoration-none">expedia</a>
+                            <a href="https://www.expedia.ca/" target="_blank" className="text-decoration-none">expedia</a>
                         </li>
                     </ul>
 
@@ -36,10 +36,10 @@ const Footer = () => {
 
                     <ul className="list-unstyled">
                         <li>
-                            <a href="https://www.trivago.ca/" className="text-decoration-none">trivago</a>
+                            <a href="https://www.trivago.ca/" target="_blank" className="text-decoration-none">trivago</a>
                         </li>
                         <li>
-                            <a href="https://www.booking.com/" className="text-decoration-none">booking.com</a>
+                            <a href="https://www.booking.com/" target="_blank" className="text-decoration-none">booking.com</a>
                         </li>
                     </ul>
 
@@ -47,7 +47,8 @@ const Footer = () => {
             </div>
         </div>
         <div class="footer-copyright text-center py-1">
-        <a href="https://www.flaticon.com/free-icons/vacations" className="text-decoration-none" title="vacations icons">Vacation icon created by Freepik - Flaticon</a>
+        <a href="https://www.flaticon.com/free-icons/vacations" target="_blank" className="text-decoration-none" title="vacations icons">Vacation icon created by Freepik - Flaticon</a>
+        <p>Eddie Ng</p>
         </div>
     </footer>
     );
